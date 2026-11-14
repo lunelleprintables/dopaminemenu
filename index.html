@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Dopamine Menu Toolkit | Printable ADHD & Neurodivergent Starter Kit by Lunelle</title>
+<meta name="description" content="A gentle, guilt-free Dopamine Menu printable toolkit for ADHD, neurodivergent brains, and low-spoon days. 8 soothing A4 & US Letter pages to unstick task freeze, regulate dopamine, and start gently.">
+<meta property="og:title" content="The Dopamine Menu Toolkit by Lunelle">
+<meta property="og:description" content="Turn task freeze into gentle momentum. An 8-page printable dopamine regulation kit with zero guilt.">
+<meta property="og:type" content="website">
+
+<!-- Google Fonts: Lora (Serif) & Quicksand (Sans) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --ink: #4C3550;
+  --ink-soft: #6d5a77;
+  --ink-sub: #9a6f8f;
+  --paper: #fbf3ee;
+  --paper-card: #ffffff;
+  --cream: #fef7eb;
+  --mint: #d9e8df;
+  --mint-dark: #2b7d75;
+  --gold: #e0a93e;
+  --gold-soft: #f4d38c;
+  --gold-light: #fef2dc;
+  --rose: #f0d5d7;
+  --rose-text: #b76e9b;
+  --violet: #dad3ed;
+  --violet-text: #6d5a9e;
+  --line: rgba(76, 53, 80, 0.12);
+  --dotted: #e9d9ba;
+  --serif: "Lora", Georgia, serif;
+  --sans: "Quicksand", system-ui, -apple-system, sans-serif;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:var(--sans);
+  font-size:1.0625rem;
+  line-height:1.65;
+  color:var(--ink);
+  background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--mint-dark);outline-offset:3px;border-radius:4px}
+
+.wrap{width:min(1160px, 100% - 2.5rem);margin-inline:auto}
+
+/* Headings Typography */
+h1, h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+  color: var(--ink);
+  letter-spacing: -0.015em;
+}
+h1 { font-size: clamp(2.3rem, 5vw, 3.8rem); }
+h2 { font-size: clamp(1.85rem, 3.4vw, 2.65rem); }
+
+h3 {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 1.32rem;
+  line-height: 1.3;
+  margin: 0;
+  color: var(--ink);
+}
+h4 {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 1.12rem;
+  line-height: 1.35;
+  margin: 0;
+  color: var(--ink);
+}
+
+p{margin:0}
+.lede{font-size:1.2rem;color:var(--ink-soft);max-width:38rem;line-height:1.65}
+
+/* Buttons & Badges */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.6rem;
+  font-family:var(--sans);font-weight:700;font-size:1.05rem;
+  text-decoration:none;
+  background:var(--mint-dark);color:#fff;
+  padding:.95rem 1.95rem;
+  border-radius:999px;
+  border:0;cursor:pointer;
+  box-shadow:0 6px 20px rgba(43,125,117,.28);
+  transition:all .22s cubic-bezier(.2,.8,.2,1);
+}
+.btn:hover{background:#236a63;transform:translateY(-2px);box-shadow:0 10px 24px rgba(43,125,117,.34)}
+.btn.small{padding:.55rem 1.35rem;font-size:.95rem;box-shadow:none}
+.btn.on-dark{background:var(--gold-soft);color:var(--ink);box-shadow:0 6px 20px rgba(224,169,62,.28)}
+.btn.on-dark:hover{background:#f8de9e;transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--ink);box-shadow:none;border:1.5px solid var(--line);padding:.55rem 1.25rem;font-size:.95rem}
+.btn.ghost:hover{background:rgba(76,53,80,.06);transform:none}
+
+.pill-badge{
+  display:inline-flex;align-items:center;gap:.45rem;
+  background:#fff;border:1px solid rgba(76,53,80,.12);
+  color:var(--ink-soft);font-family:var(--sans);font-weight:600;
+  font-size:.88rem;padding:.35rem .95rem;border-radius:999px;
+  box-shadow:0 2px 8px rgba(76,53,80,.04);
+}
+.pill-badge.launch{
+  background:var(--gold-light);border-color:var(--gold);color:#8e6015;font-weight:700;
+}
+
+/* Header */
+header.top{
+  position:sticky;top:0;z-index:90;
+  background:rgba(251,243,238,.94);backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(76,53,80,.08);padding:.85rem 0;
+}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1.5rem}
+
+.brand{
+  display:flex;align-items:center;gap:.85rem;text-decoration:none;flex-shrink:0;
+}
+.brand-avatar{
+  width:46px;height:46px;border-radius:14px;
+  object-fit:cover;object-position:center top;
+  box-shadow:0 3px 10px rgba(76,53,80,.14);border:2px solid #fff;
+  flex-shrink:0;
+}
+.brand-text{
+  display:flex;flex-direction:column;white-space:nowrap;
+}
+.brand-name{
+  font-family:var(--sans);font-weight:700;font-size:1.45rem;
+  color:var(--ink);line-height:1.05;letter-spacing:-.02em;white-space:nowrap;
+}
+.brand-sub{
+  font-size:.82rem;color:var(--ink-sub);font-family:var(--sans);
+  font-weight:600;letter-spacing:.01em;white-space:nowrap;margin-top:2px;
+}
+
+.nav-group{display:flex;align-items:center;gap:1.75rem}
+.nav-links{display:flex;align-items:center;gap:1.35rem;list-style:none;margin:0;padding:0}
+.nav-links a{text-decoration:none;font-size:.96rem;color:var(--ink-soft);font-weight:600;transition:color .2s}
+.nav-links a:hover{color:var(--ink)}
+
+/* Hero Section */
+.hero{
+  position:relative;overflow:hidden;
+  background:linear-gradient(180deg, #fbf3ee 0%, #f4e8f1 55%, #fcefe7 100%);
+  padding:3.5rem 0 5.5rem;
+}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.hero::before{width:380px;height:260px;background:var(--mint);left:-120px;top:-80px;transform:rotate(25deg);opacity:.65}
+.hero::after{width:450px;height:300px;background:var(--gold-soft);right:-140px;top:-90px;transform:rotate(-25deg);opacity:.55}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.08fr .92fr;gap:3.5rem;align-items:center}
+.gold-bar{width:56px;height:4.5px;border-radius:3px;background:var(--gold);margin:1.3rem 0 1.4rem}
+.hero .actions{margin-top:2.2rem;display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.4rem}
+.hero .fine{font-size:.95rem;color:var(--ink-soft);display:flex;align-items:center;gap:.45rem}
+.hero-badges{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.25rem}
+
+/* Hero Showcase Visual */
+.hero-visual{position:relative;width:100%;max-width:480px;margin-inline:auto}
+.hero-card-frame{
+  position:relative;background:#fff;border-radius:24px;
+  padding:10px;box-shadow:0 24px 60px rgba(76,53,80,.18);
+  border:1px solid rgba(76,53,80,.08);
+  transform:rotate(-1.5deg);
+  transition:transform .4s cubic-bezier(.2,.8,.2,1);
+}
+.hero-card-frame:hover{transform:rotate(0deg) scale(1.015)}
+.hero-card-frame .main-mockup{
+  width:100%;height:auto;aspect-ratio:794/1123;object-fit:cover;
+  border-radius:16px;display:block;box-shadow:0 4px 14px rgba(76,53,80,.08);
+}
+
+.mascot-sticker{
+  position:absolute;right:-36px;bottom:-30px;width:195px !important;max-width:195px !important;height:auto;
+  filter:drop-shadow(0 14px 28px rgba(76,53,80,.26));
+  z-index:4;pointer-events:none;
+  animation:floatMascot 4.5s ease-in-out infinite alternate;
+}
+@keyframes floatMascot{
+  0%{transform:translateY(0) rotate(2deg)}
+  100%{transform:translateY(-10px) rotate(-3deg)}
+}
+.floating-badge{
+  position:absolute;left:-28px;bottom:35px;z-index:5;
+  background:#fff;border-radius:18px;padding:.85rem 1.25rem;
+  box-shadow:0 12px 30px rgba(76,53,80,.14);
+  border:1px solid rgba(76,53,80,.08);max-width:215px;
+}
+.floating-badge .fb-title{font-family:var(--sans);font-size:1rem;font-weight:700;color:var(--ink)}
+.floating-badge .fb-sub{font-size:.82rem;color:var(--ink-sub);margin-top:2px;font-weight:600}
+
+/* Section Common */
+section{padding:5.5rem 0;position:relative}
+.sec-head{max-width:46rem;margin-bottom:2.75rem}
+.sec-head.center{margin-inline:auto;text-align:center}
+.sec-head p{margin-top:.9rem;color:var(--ink-soft);font-size:1.15rem;line-height:1.65}
+.sec-tag{
+  font-family:var(--sans);font-size:.88rem;font-weight:700;
+  text-transform:uppercase;letter-spacing:.08em;color:var(--gold);
+  margin-bottom:.5rem;display:inline-block;
+}
+
+/* Pain Points / The Struggle */
+.struggle-sec{background:linear-gradient(180deg, #fcefe7 0%, #fbf3ee 100%)}
+.struggle-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:2rem}
+.struggle-card{
+  background:#fff;border-radius:22px;padding:2.2rem 1.85rem;
+  border:1px solid var(--line);box-shadow:0 10px 26px rgba(76,53,80,.05);
+  display:flex;flex-direction:column;position:relative;overflow:hidden;
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+.struggle-card:hover{transform:translateY(-4px);box-shadow:0 18px 36px rgba(76,53,80,.1)}
+.struggle-icon{
+  width:52px;height:52px;border-radius:16px;background:var(--cream);
+  display:flex;align-items:center;justify-content:center;font-size:1.6rem;
+  margin-bottom:1.25rem;border:1px solid var(--dotted);
+}
+.struggle-card h3{margin-bottom:.75rem;font-size:1.3rem}
+.struggle-card p{color:var(--ink-soft);font-size:1.02rem;line-height:1.6}
+
+.quote-box{
+  background:#fff;border-radius:24px;padding:2.5rem 3rem;
+  margin-top:3.5rem;box-shadow:0 14px 35px rgba(76,53,80,.06);
+  border:1px solid var(--line);position:relative;text-align:center;
+}
+.quote-box blockquote{
+  margin:0;font-family:var(--serif);font-style:italic;font-weight:400;
+  font-size:clamp(1.35rem, 2.5vw, 1.85rem);line-height:1.45;color:var(--ink);
+}
+.quote-box .quote-sub{
+  margin-top:1.1rem;font-family:var(--sans);font-size:.95rem;font-weight:600;color:var(--ink-sub);
+}
+
+/* Philosophy: The Café Method */
+.cafe-sec{background:linear-gradient(180deg, #fbf3ee 0%, #f4e8f1 50%, #fbf3ee 100%)}
+.cafe-grid{display:grid;grid-template-columns:repeat(4, 1fr);gap:1.75rem}
+.cafe-card{
+  background:#fff;border-radius:22px;padding:2rem 1.65rem;
+  border:1px solid var(--line);box-shadow:0 10px 28px rgba(76,53,80,.06);
+  display:flex;flex-direction:column;position:relative;overflow:hidden;
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+.cafe-card:hover{transform:translateY(-4px);box-shadow:0 18px 36px rgba(76,53,80,.1)}
+.cafe-card::before{content:"";position:absolute;top:0;left:0;right:0;height:5px;background:var(--card-accent, var(--gold))}
+.cafe-card.appetizer{--card-accent:#2B9B91;--pill-bg:#E1F2E8;--pill-color:#2B9B91}
+.cafe-card.main{--card-accent:#D9A03F;--pill-bg:#FDF2DE;--pill-color:#D9A03F}
+.cafe-card.sides{--card-accent:#B76E9B;--pill-bg:#F9E6E1;--pill-color:#B76E9B}
+.cafe-card.dessert{--card-accent:#8D78C8;--pill-bg:#EFEAF8;--pill-color:#8D78C8}
+
+.cafe-card .pill{
+  align-self:flex-start;background:var(--pill-bg);color:var(--pill-color);
+  font-family:var(--sans);font-weight:700;font-size:.82rem;padding:.3rem .85rem;
+  border-radius:999px;margin-bottom:1.15rem;
+}
+.cafe-card h3{margin-bottom:.55rem;font-size:1.25rem}
+.cafe-card .time-range{font-size:.88rem;color:var(--ink-sub);font-weight:600;margin-bottom:.85rem}
+.cafe-card p{color:var(--ink-soft);font-size:.98rem;line-height:1.58}
+.cafe-card ul{list-style:none;padding:0;margin:1rem 0 0;font-size:.93rem;color:var(--ink-soft)}
+.cafe-card ul li{position:relative;padding-left:1.3rem;margin-bottom:.5rem}
+.cafe-card ul li::before{content:"•";position:absolute;left:0;color:var(--card-accent);font-size:1.2rem;line-height:1}
+
+/* Interactive Peek Inside Section */
+.peek-sec{background:#fff}
+.peek-container{
+  background:var(--cream);border-radius:28px;padding:2.5rem;
+  box-shadow:0 22px 55px rgba(76,53,80,.08);
+  border:1px solid rgba(76,53,80,.09);
+}
+.preview-tabs{
+  display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:2rem;border-bottom:1px solid var(--line);
+  padding-bottom:1.25rem;
+}
+.tab-btn{
+  background:none;border:1px solid rgba(76,53,80,.15);
+  padding:.65rem 1.25rem;border-radius:999px;font-family:var(--sans);
+  font-weight:600;font-size:.95rem;color:var(--ink-soft);cursor:pointer;
+  transition:all .2s ease;
+}
+.tab-btn:hover{background:rgba(76,53,80,.05);color:var(--ink)}
+.tab-btn.active{background:var(--ink);color:#fff;border-color:var(--ink);box-shadow:0 4px 14px rgba(76,53,80,.2)}
+
+.tab-pane{display:none}
+.tab-pane.active{display:grid;grid-template-columns:1fr 1.08fr;gap:3rem;align-items:center}
+.pane-desc h3{font-family:var(--serif);font-size:1.95rem;margin-bottom:.65rem;font-weight:500}
+.pane-desc .tag{
+  display:inline-block;font-family:var(--sans);font-size:.85rem;font-weight:700;
+  color:var(--gold);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.75rem;
+}
+.pane-desc p{color:var(--ink-soft);font-size:1.06rem;line-height:1.65;margin-bottom:1.5rem}
+.pane-highlights{list-style:none;padding:0;margin:0 0 1.75rem}
+.pane-highlights li{
+  position:relative;padding-left:1.5rem;margin-bottom:.65rem;color:var(--ink);font-size:1rem;font-weight:500;
+}
+.pane-highlights li::before{
+  content:"✓";position:absolute;left:0;color:var(--mint-dark);font-weight:700;
+}
+
+.pane-preview-frame{
+  background:#fff;border-radius:20px;padding:10px;
+  box-shadow:0 18px 45px rgba(76,53,80,.12);
+  border:1px solid rgba(76,53,80,.08);
+  max-width:480px;margin-inline:auto;
+}
+.pane-preview-frame img{
+  width:100%;height:auto;aspect-ratio:794/1123;object-fit:cover;
+  border-radius:14px;display:block;
+}
+
+/* All 8 Pages Showcase Grid - Clean Editorial Design */
+.inside-sec{background:linear-gradient(180deg, #fbf3ee 0%, #f7eff6 100%)}
+.pages-grid{display:grid;grid-template-columns:repeat(4, 1fr);gap:1.6rem}
+.page-item-card{
+  background:#fff;border-radius:22px;padding:1.85rem 1.6rem;
+  border:1px solid var(--line);box-shadow:0 8px 24px rgba(76,53,80,.05);
+  display:flex;flex-direction:column;justify-content:space-between;
+  position:relative;overflow:hidden;
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+.page-item-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(76,53,80,.1)}
+.page-item-card::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:5px;background:var(--page-color, var(--gold));
+}
+.page-item-card.c-mint{--page-color:var(--mint-dark);--badge-bg:var(--mint);--badge-color:var(--mint-dark)}
+.page-item-card.c-gold{--page-color:var(--gold);--badge-bg:var(--gold-light);--badge-color:#8e6015}
+.page-item-card.c-rose{--page-color:var(--rose-text);--badge-bg:var(--rose);--badge-color:var(--rose-text)}
+.page-item-card.c-violet{--page-color:var(--violet-text);--badge-bg:var(--violet);--badge-color:var(--violet-text)}
+
+.page-card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem}
+.page-card-badge{
+  font-family:var(--sans);font-weight:750;font-size:.82rem;
+  background:var(--badge-bg);color:var(--badge-color);
+  padding:.3rem .85rem;border-radius:999px;letter-spacing:.02em;
+}
+.page-card-icon{font-size:1.45rem;line-height:1}
+.page-item-card h4{
+  font-family:var(--serif);font-size:1.35rem;font-weight:500;
+  line-height:1.25;color:var(--ink);margin-bottom:.65rem;
+}
+.page-item-card .page-desc{
+  color:var(--ink-soft);font-size:.95rem;line-height:1.6;margin-bottom:1.15rem;
+}
+.page-bullets{
+  list-style:none;padding:0;margin:0 0 1.25rem;border-top:1px dotted var(--dotted);padding-top:1rem;
+}
+.page-bullets li{
+  position:relative;padding-left:1.2rem;font-size:.88rem;color:var(--ink);
+  margin-bottom:.45rem;line-height:1.45;
+}
+.page-bullets li::before{
+  content:"•";position:absolute;left:0;color:var(--page-color);font-size:1.2rem;line-height:1;
+}
+.page-format-tag{
+  font-size:.78rem;font-weight:600;color:var(--ink-sub);
+  display:inline-flex;align-items:center;gap:.35rem;
+}
+.page-item-card h4{font-size:1.1rem;margin-bottom:.4rem}
+.page-item-card p{color:var(--ink-soft);font-size:.92rem;line-height:1.55}
+
+/* Somatic & Emergency Highlight Box */
+.highlight-banner-sec{background:#fff;padding:4.5rem 0}
+.highlight-banner{
+  background:linear-gradient(135deg, #FEF7EB 0%, #FAF4EB 50%, #F4EAF0 100%);
+  border-radius:28px;padding:3rem;border:1.5px solid var(--dotted);
+  display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:center;
+  box-shadow:0 14px 40px rgba(76,53,80,.06);position:relative;overflow:hidden;
+}
+.highlight-content h2{margin-bottom:1rem}
+.highlight-content p{color:var(--ink-soft);font-size:1.12rem;line-height:1.65;max-width:38rem}
+.highlight-tags{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.5rem}
+.highlight-tag{
+  background:#fff;border:1px solid rgba(76,53,80,.1);padding:.4rem 1rem;
+  border-radius:999px;font-size:.9rem;font-weight:600;color:var(--ink);
+}
+.highlight-sticker{
+  width:260px;max-width:280px;height:auto;
+  filter:drop-shadow(0 16px 32px rgba(76,53,80,.24));
+  animation:floatMascot 4s ease-in-out infinite alternate;
+}
+
+/* Reviews & Testimonials */
+.reviews-sec{background:linear-gradient(180deg, #fbf3ee 0%, #f4e8f1 100%)}
+.reviews-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:2rem}
+.review-card{
+  background:#fff;border-radius:22px;padding:2.2rem 1.85rem;
+  border:1px solid var(--line);box-shadow:0 10px 28px rgba(76,53,80,.05);
+  display:flex;flex-direction:column;justify-content:space-between;
+}
+.review-stars{color:var(--gold);font-size:1.15rem;margin-bottom:1rem;letter-spacing:2px}
+.review-card p{color:var(--ink);font-size:1.02rem;line-height:1.65;font-style:italic}
+.review-author{margin-top:1.4rem;display:flex;align-items:center;gap:.85rem}
+.review-avatar{
+  width:42px;height:42px;border-radius:50%;background:var(--mint);
+  display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--mint-dark);
+}
+.review-info .name{font-weight:700;font-size:.96rem;color:var(--ink)}
+.review-info .role{font-size:.82rem;color:var(--ink-sub)}
+
+/* Pricing Section */
+.offer-sec{background:linear-gradient(180deg, #f4e8f1 0%, #fbf3ee 100%)}
+.offer-sec .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:4rem;align-items:start}
+.offer-details h2{margin-bottom:1rem}
+.offer-details .lede{margin-bottom:2rem}
+.offer-features{list-style:none;padding:0;margin:0 0 2rem}
+.offer-features li{
+  display:flex;align-items:baseline;gap:.85rem;padding:.9rem 0;
+  border-bottom:1px solid var(--line);font-size:1.02rem;color:var(--ink);font-weight:500;
+}
+.offer-features li:first-child{border-top:1px solid var(--line)}
+.check-icon{color:var(--mint-dark);font-weight:bold;font-size:1.15rem}
+
+/* Buy Card */
+.buy-card{
+  background:#fff;border-radius:28px;padding:2.5rem;
+  border:1px solid rgba(76,53,80,.14);box-shadow:0 22px 60px rgba(76,53,80,.12);
+  position:sticky;top:100px;
+}
+.buy-card-tag{
+  display:inline-block;background:var(--gold-light);color:#8f6016;
+  font-family:var(--sans);font-weight:700;font-size:.85rem;
+  padding:.35rem .95rem;border-radius:999px;margin-bottom:1rem;
+}
+.price-row{display:flex;align-items:baseline;gap:.85rem;margin-bottom:.5rem}
+.price-current{font-family:var(--sans);font-size:3.5rem;font-weight:700;color:var(--ink);line-height:1;letter-spacing:-.02em}
+.price-regular{font-size:1.35rem;color:var(--ink-sub);text-decoration:line-through;font-weight:600}
+.price-note{font-size:.96rem;color:var(--ink-soft);margin-bottom:1.75rem}
+.buy-card .btn{width:100%;font-size:1.15rem;padding:1.1rem 2rem}
+.guarantee-list{list-style:none;padding:0;margin:1.75rem 0 0;font-size:.92rem;color:var(--ink-soft)}
+.guarantee-list li{display:flex;align-items:center;gap:.6rem;padding:.35rem 0}
+
+/* Combo / Upsell Box */
+.combo-banner{
+  margin-top:1.5rem;background:var(--cream);border-radius:18px;padding:1.25rem 1.35rem;
+  border:1px solid var(--dotted);display:flex;align-items:center;justify-content:space-between;gap:1rem;
+}
+.combo-title{font-family:var(--sans);font-size:1.02rem;font-weight:700;color:var(--ink)}
+.combo-desc{font-size:.84rem;color:var(--ink-sub)}
+.combo-btn{
+  background:none;border:1.5px solid var(--ink);border-radius:999px;padding:.4rem .95rem;
+  font-family:var(--sans);font-weight:700;font-size:.88rem;color:var(--ink);text-decoration:none;
+  white-space:nowrap;transition:all .2s;
+}
+.combo-btn:hover{background:var(--ink);color:#fff}
+
+/* FAQ */
+.faq-sec{background:#fff}
+.faq-sec .wrap{max-width:820px}
+details{border-bottom:1px solid var(--line);padding:1.3rem 0}
+details:first-of-type{border-top:1px solid var(--line)}
+summary{
+  cursor:pointer;list-style:none;font-family:var(--sans);
+  font-weight:700;font-size:1.22rem;color:var(--ink);
+  display:flex;justify-content:space-between;align-items:center;gap:1rem;
+  line-height:1.35;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--sans);font-weight:500;font-size:1.6rem;color:var(--mint-dark);line-height:1;transition:transform .2s}
+details[open] summary::after{content:"\2212"}
+details p{margin-top:.85rem;color:var(--ink-soft);font-size:1.04rem;line-height:1.65;max-width:44rem}
+
+/* Final CTA */
+.final-sec{
+  background:var(--ink);color:#f7ece8;padding:6rem 0;position:relative;overflow:hidden;
+}
+.final-sec::before{
+  content:"";position:absolute;width:400px;height:400px;border-radius:50%;
+  background:radial-gradient(circle, rgba(224,169,62,.15) 0%, transparent 70%);
+  top:-100px;right:-100px;pointer-events:none;
+}
+.final-sec .wrap{display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:center}
+.final-sec h2{color:#fff;font-size:clamp(2rem, 3.8vw, 2.9rem);max-width:24ch;margin-bottom:1.25rem}
+.final-sec p{color:#dcc9de;font-size:1.15rem;max-width:36rem;line-height:1.65}
+.final-sec .btn{margin-top:2.25rem}
+.final-mascot{
+  width:clamp(280px, 26vw, 340px);
+  max-width:350px;
+  height:auto;
+  filter:drop-shadow(0 18px 36px rgba(0,0,0,.45));
+  animation:floatMascot 4.5s ease-in-out infinite alternate;
+}
+
+/* Footer */
+footer{background:#3b2a42;color:#bca7c1;padding:2.5rem 0 3.5rem;font-size:.92rem}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem}
+footer a{color:#dcc9de;text-decoration:none}
+footer a:hover{text-decoration:underline}
+
+/* Mobile Sticky Buy Bar */
+.mobile-sticky-bar{
+  display:none;position:fixed;bottom:0;left:0;right:0;z-index:95;
+  background:#fff;border-top:1px solid rgba(76,53,80,.12);
+  padding:.85rem 1.25rem;box-shadow:0 -6px 20px rgba(76,53,80,.08);
+  align-items:center;justify-content:space-between;
+}
+.mobile-sticky-bar .ms-price{font-family:var(--sans);font-weight:700;font-size:1.35rem;color:var(--ink)}
+.mobile-sticky-bar .ms-sub{font-size:.78rem;color:var(--ink-sub)}
+
+/* Responsive */
+@media (max-width:960px){
+  section{padding:4.25rem 0}
+  .hero .wrap, .offer-sec .wrap{grid-template-columns:1fr;gap:3rem}
+  .struggle-grid, .cafe-grid, .reviews-grid{grid-template-columns:1fr;gap:1.5rem}
+  .pages-grid{grid-template-columns:repeat(2, 1fr);gap:1.25rem}
+  .tab-pane.active{grid-template-columns:1fr;gap:2rem}
+  .highlight-banner{grid-template-columns:1fr;text-align:center;padding:2.5rem 1.75rem}
+  .highlight-content p{margin-inline:auto}
+  .highlight-tags{justify-content:center}
+  .highlight-sticker{margin:0 auto}
+  .final-sec .wrap{grid-template-columns:1fr;text-align:center}
+  .final-sec p{margin-inline:auto}
+  .final-mascot{margin:0 auto}
+  .nav-links{display:none}
+  .hero-visual{max-width:420px}
+  .mascot-sticker{width:110px !important;right:-15px;bottom:-20px}
+  .floating-badge{left:0;bottom:20px}
+  .mobile-sticky-bar{display:flex}
+  body{padding-bottom:70px}
+}
+@media (max-width:600px){
+  .pages-grid{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .btn, .struggle-card, .cafe-card, .mascot-sticker{transition:none;animation:none}
+}
+</style>
+</head>
+<body>
+
+<!-- STICKY TOP HEADER -->
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <img class="brand-avatar" src="assets/lunelle_avatar.png" alt="Lunelle avatar">
+      <div class="brand-text">
+        <span class="brand-name">Lunelle</span>
+        <span class="brand-sub">Gentle Dopamine Menu</span>
+      </div>
+    </a>
+
+    <div class="nav-group">
+      <ul class="nav-links">
+        <li><a href="#struggle">Why It Works</a></li>
+        <li><a href="#method">The Café Method</a></li>
+        <li><a href="#peek">Peek Inside</a></li>
+        <li><a href="#pages">All 8 Pages</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <a class="btn small" href="#buy">Get the Toolkit · $5</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-content">
+        <div class="hero-badges">
+          <span class="pill-badge launch">✨ Special Launch · 60% OFF</span>
+          <span class="pill-badge">A4 & US Letter · Printable PDF</span>
+        </div>
+
+        <h1>When starting feels impossible, you don’t need willpower.<br><em style="font-weight:400;color:var(--rose-text);">You just need a menu.</em></h1>
+        <div class="gold-bar"></div>
+
+        <p class="lede">
+          The guilt-free dopamine regulation printable for ADHD minds, autistic overwhelm, and low-spoon days. Designed like a cozy café menu so you never have to make executive decisions when your battery is at 0%.
+        </p>
+
+        <div class="actions">
+          <a class="btn" href="#buy">
+            <span>Download the Toolkit · $5</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a class="btn ghost" href="#peek">Explore the 8 Pages ↓</a>
+        </div>
+
+        <div class="fine" style="margin-top: 1.5rem;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2b7d75" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>Instant PDF download · Print unlimited times · iPad / GoodNotes ready</span>
+        </div>
+      </div>
+
+      <!-- Hero Showcase Visual -->
+      <div class="hero-visual">
+        <div class="hero-card-frame">
+          <img class="main-mockup" src="assets/preview_cover.png" alt="Lunelle Dopamine Menu Printable Cover">
+          
+          <!-- Floating mascot sticker with shadow: Digital Detox (putting phone away) -->
+          <img class="mascot-sticker" src="assets/sticker_selfcare_04_digital_detox.png" alt="Lunelle Digital Detox - Putting phone away">
+
+          <!-- Floating badge -->
+          <div class="floating-badge">
+            <div class="fb-title">📵 Zero Doomscroll</div>
+            <div class="fb-sub">Step away from phone freeze gently</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE STRUGGLE SECTION -->
+  <section class="struggle-sec" id="struggle">
+    <div class="wrap">
+      <div class="sec-head center">
+        <span class="sec-tag">The Neurodivergent Reality</span>
+        <h2>Why your brain freezes (and why it is never your fault)</h2>
+        <p>If you've ever stared at a blank screen or a messy room for two hours while doomscrolling in silent agony, your nervous system was simply out of fuel.</p>
+      </div>
+
+      <div class="struggle-grid">
+        <div class="struggle-card">
+          <div class="struggle-icon">🧠</div>
+          <h3>The Dopamine Deficit</h3>
+          <p>ADHD and burnout aren’t motivation flaws. Your brain physically lacks the baseline neurotransmitters to initiate non-stimulating tasks. Shaming yourself only raises cortisol and worsens the paralysis.</p>
+        </div>
+
+        <div class="struggle-card">
+          <div class="struggle-icon">🌀</div>
+          <h3>The "Infinite Choice" Trap</h3>
+          <p>When you ask an exhausted brain <em>"What should I do right now to feel better?"</em>, executive function collapses under infinite options. The default easiest escape is your smartphone.</p>
+        </div>
+
+        <div class="struggle-card">
+          <div class="struggle-icon">📱</div>
+          <h3>The Doomscroll Hangover</h3>
+          <p>Short-form video feeds give artificial micro-bursts of dopamine followed by deeper depletion. You emerge 3 hours later feeling numb, guilty, and even more exhausted than when you began.</p>
+        </div>
+      </div>
+
+      <div class="quote-box">
+        <blockquote>
+          “You do not have a laziness problem. You have a dopamine regulation puzzle. When you have a gentle menu pre-made, you skip the agony of deciding.”
+        </blockquote>
+        <div class="quote-sub">— Lunelle Philosophy · One gentle step at a time</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE CAFÉ METHOD -->
+  <section class="cafe-sec" id="method">
+    <div class="wrap">
+      <div class="sec-head center">
+        <span class="sec-tag">The Framework</span>
+        <h2>How the Dopamine Menu Works</h2>
+        <p>Originally inspired by the neurodivergent community and refined into Lunelle’s cozy, pressure-free system. You order what you have spoons for:</p>
+      </div>
+
+      <div class="cafe-grid">
+        <div class="cafe-card appetizer">
+          <div class="pill">2–5 MINUTES</div>
+          <h3>🥗 Appetizers</h3>
+          <div class="time-range">Quick sensory sparks</div>
+          <p>Tiny physical or sensory actions that cost near-zero energy but jumpstart dopamine flow:</p>
+          <ul>
+            <li>Ice-cold water or warm honey tea</li>
+            <li>Full-body cat stretch & deep exhale</li>
+            <li>Stand by open window, look at sky</li>
+            <li>Inhale citrus or lavender aroma</li>
+          </ul>
+        </div>
+
+        <div class="cafe-card main">
+          <div class="pill">15–30 MINUTES</div>
+          <h3>🍲 Main Courses</h3>
+          <div class="time-range">Deep soothing resets</div>
+          <p>Nourishing, slow activities that restore your baseline when your battery is completely drained:</p>
+          <ul>
+            <li>Quiet walk outside with no podcast</li>
+            <li>Warm bath with low lighting</li>
+            <li>Doodling or watercolor with zero goals</li>
+            <li>Reading a comfort book on the floor</li>
+          </ul>
+        </div>
+
+        <div class="cafe-card sides">
+          <div class="pill">PAIRS WITH WORK</div>
+          <h3>🍟 Sides</h3>
+          <div class="time-range">Accompaniments for chores</div>
+          <p>Sensory seasoning that makes boring, under-stimulating tasks bearable to your brain:</p>
+          <ul>
+            <li>Cozy lo-fi beats or ambient rain</li>
+            <li>Body-doubling video or friend on call</li>
+            <li>Fidget clay or weighted lap pad</li>
+            <li>Lighting a favorite scented candle</li>
+          </ul>
+        </div>
+
+        <div class="cafe-card dessert">
+          <div class="pill">TIMER ONLY</div>
+          <h3>🍰 Desserts</h3>
+          <div class="time-range">High dopamine with boundaries</div>
+          <p>Super-stimulating fun you love, enjoyed without guilt — but protected by a gentle timer:</p>
+          <ul>
+            <li>Gaming or puzzle apps (20m timer)</li>
+            <li>Social media & video feeds</li>
+            <li>Online browsing or hyperfocus rabbit hole</li>
+            <li>Sweet treats or comfort snacks</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE PEEK INSIDE -->
+  <section class="peek-sec" id="peek">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">Interactive Preview</span>
+        <h2>Peek Inside the Toolkit</h2>
+        <p>Click through the tabs below to explore key pages included in the printable PDF:</p>
+      </div>
+
+      <div class="peek-container">
+        <div class="preview-tabs">
+          <button class="tab-btn active" data-tab="tab-ref">🥗 Reference Menu</button>
+          <button class="tab-btn" data-tab="tab-blank">✏️ Fillable "My Menu"</button>
+          <button class="tab-btn" data-tab="tab-emergency">⚡ 12 Emergency Starters</button>
+          <button class="tab-btn" data-tab="tab-stimming">🧸 Somatic & Stimming</button>
+          <button class="tab-btn" data-tab="tab-matrix">⏱️ Gentle Starter Matrix</button>
+          <button class="tab-btn" data-tab="tab-guide">📖 How-To Guide</button>
+        </div>
+
+        <!-- Tab 1: Reference Menu -->
+        <div class="tab-pane active" id="tab-ref">
+          <div class="pane-desc">
+            <span class="tag">Page 3 · Curated Inspiration</span>
+            <h3>The Reference Dopamine Menu</h3>
+            <p>Never stare at a blank page wondering what to write. We’ve pre-filled a rich, sensory-friendly menu across Appetizers, Mains, Sides, Desserts, and Emergency grounding.</p>
+            <ul class="pane-highlights">
+              <li>Realistic, low-energy ideas tested by neurodivergent adults</li>
+              <li>Pastel color-coded category badges (mint, gold, lavender, rose)</li>
+              <li>Aesthetic botanical leaves that make your desk feel peaceful</li>
+              <li>Perfect to hang right above your desk or on the fridge</li>
+            </ul>
+            <a class="btn small" href="#buy">Get This Sheet</a>
+          </div>
+          <div class="pane-preview-frame">
+            <img src="assets/preview_reference_menu.png" alt="Dopamine Menu Reference Page">
+          </div>
+        </div>
+
+        <!-- Tab 2: Blank Menu -->
+        <div class="tab-pane" id="tab-blank">
+          <div class="pane-desc">
+            <span class="tag">Page 4 · Personal Sanctuary</span>
+            <h3>Your Custom "My Menu" Blank</h3>
+            <p>Your unique safe haven. Designed with soothing dotted sand lines so you can pen down only the things that genuinely spark joy and ease in <em>your</em> specific brain.</p>
+            <ul class="pane-highlights">
+              <li>5 dedicated writing lines per course category</li>
+              <li>Includes the revolutionary <strong>"🚫 Drains Me, Not Right Now"</strong> honest list</li>
+              <li>Single <strong>"⭐ Default Gentle Starter"</strong> box for when you can’t choose</li>
+              <li>Reminder footer: <em>"The menu is for you, not you for it."</em></li>
+            </ul>
+            <a class="btn small" href="#buy">Get This Sheet</a>
+          </div>
+          <div class="pane-preview-frame">
+            <img src="assets/preview_blank_menu.png" alt="Fillable Blank Dopamine Menu Page">
+          </div>
+        </div>
+
+        <!-- Tab 3: Emergency Starters -->
+        <div class="tab-pane" id="tab-emergency">
+          <div class="pane-desc">
+            <span class="tag">Page 6 · Overwhelm Protocol</span>
+            <h3>12 Emergency Starters (Circle Mode)</h3>
+            <p>When you are in acute freeze or sensory meltdown, reading lists is impossible. This full-page sheet features 12 tactile, circleable blocks with instant one-step resets.</p>
+            <ul class="pane-highlights">
+              <li>Just grab a pen and circle the single block that feels safe today</li>
+              <li>Micro-actions: "Just open the file", "Put on shoes", "5-min kitchen dance"</li>
+              <li>Includes the cute Lunelle mascot with sparkler & clock</li>
+              <li>Eliminates decision fatigue in under 10 seconds</li>
+            </ul>
+            <a class="btn small" href="#buy">Get This Sheet</a>
+          </div>
+          <div class="pane-preview-frame">
+            <img src="assets/preview_emergency_starters.png" alt="Emergency Starters A4 Printable">
+          </div>
+        </div>
+
+        <!-- Tab 4: Stimming & Somatic -->
+        <div class="tab-pane" id="tab-stimming">
+          <div class="pane-desc">
+            <span class="tag">Page 8 · Nervous System Medicine</span>
+            <h3>Stimming & Somatic Regulation Menu</h3>
+            <p>Repetitive movement and deep pressure as natural nervous system medicine. Validates stimming as essential dopamine regulation, never something to suppress.</p>
+            <ul class="pane-highlights">
+              <li><strong>Down-Regulating Stims:</strong> Rhythmic rocking, butterfly self-hug, vagus humming</li>
+              <li><strong>Up-Regulating Stims:</strong> Heel drops, sour candies, fast finger drumming</li>
+              <li><strong>Proprioceptive Heavy Work:</strong> Wall push-ups, weighted burrito roll, heavy carry</li>
+              <li>Grounds your physical body before asking your brain to work</li>
+            </ul>
+            <a class="btn small" href="#buy">Get This Sheet</a>
+          </div>
+          <div class="pane-preview-frame">
+            <img src="assets/preview_stimming.png" alt="Stimming and Somatic Regulation Page">
+          </div>
+        </div>
+
+        <!-- Tab 5: Starter Matrix -->
+        <div class="tab-pane" id="tab-matrix">
+          <div class="pane-desc">
+            <span class="tag">Page 5 · Time & Energy Filter</span>
+            <h3>Gentle Starter Matrix (5 / 15 / 30 Min)</h3>
+            <p>Organized by available time and energy. When you only have 5 minutes before a meeting or a 15-minute gap, pick by duration and modality (Movement or Creative).</p>
+            <ul class="pane-highlights">
+              <li>3 columns: 5 minutes · 15 minutes · 30 minutes</li>
+              <li>2 intuitive rows: Movement Warmups & Creative Sparks</li>
+              <li>Pre-filled starter ideas + dotted blank lines for your favorites</li>
+              <li>Cute peeking mascot in the header cheering you on</li>
+            </ul>
+            <a class="btn small" href="#buy">Get This Sheet</a>
+          </div>
+          <div class="pane-preview-frame">
+            <img src="assets/preview_starter_matrix.png" alt="Gentle Starter Matrix Page">
+          </div>
+        </div>
+
+        <!-- Tab 6: Guide -->
+        <div class="tab-pane" id="tab-guide">
+          <div class="pane-desc">
+            <span class="tag">Page 2 · Plain-English Neuroscience</span>
+            <h3>The How-To Guide: 4 Golden Rules</h3>
+            <p>Clear, warm, non-clinical explanations of what dopamine actually does, why the ADHD brain seeks novelty, and how to use your menu without turning it into another chore.</p>
+            <ul class="pane-highlights">
+              <li>The Dopamine Curve: understanding high vs gentle low-cost dopamine</li>
+              <li>The 4 Golden Rules of gentle momentum</li>
+              <li>What to do on absolute zero-spoon days</li>
+              <li>Warmly illustrated with Lunelle botanical accents</li>
+            </ul>
+            <a class="btn small" href="#buy">Get This Sheet</a>
+          </div>
+          <div class="pane-preview-frame">
+            <img src="assets/preview_guide.png" alt="How to Use Your Dopamine Menu Guide">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ALL 8 PAGES SHOWCASE -->
+  <section class="inside-sec" id="pages">
+    <div class="wrap">
+      <div class="sec-head center">
+        <span class="sec-tag">Complete Collection</span>
+        <h2>Everything Included in Your 8-Page Toolkit</h2>
+        <p>Formatted in crisp vector quality for standard home printing (A4 and US Letter), and fully compatible with tablet apps like GoodNotes and Notability.</p>
+      </div>
+
+      <div class="pages-grid">
+        <!-- Page 1 -->
+        <div class="page-item-card c-rose">
+          <div>
+            <div class="page-card-top">
+              <span class="page-card-badge">PAGE 1</span>
+              <span class="page-card-icon">✨</span>
+            </div>
+            <h4>Aesthetic Cover Page</h4>
+            <p class="page-desc">A soothing, pressure-free welcome to your workspace with soft gradients and botanical leaves.</p>
+            <ul class="page-bullets">
+              <li>Warm watercolor palette without visual noise</li>
+              <li>Signature Lunelle 3D unicorn mascot</li>
+              <li>Quick visual table of contents</li>
+            </ul>
+          </div>
+          <div class="page-format-tag">
+            <span>✓ High-Res Vector PDF</span>
+          </div>
+        </div>
+
+        <!-- Page 2 -->
+        <div class="page-item-card c-mint">
+          <div>
+            <div class="page-card-top">
+              <span class="page-card-badge">PAGE 2</span>
+              <span class="page-card-icon">🧠</span>
+            </div>
+            <h4>Neuroscience Guide</h4>
+            <p class="page-desc">Plain-English guide to dopamine curves, executive dysfunction, and why starting hurts.</p>
+            <ul class="page-bullets">
+              <li>The café metaphor: choosing by spoon capacity</li>
+              <li>The 4 Golden Rules of gentle momentum</li>
+              <li>Emergency protocol for acute freeze</li>
+            </ul>
+          </div>
+          <div class="page-format-tag">
+            <span>✓ Zero-Shame Advice</span>
+          </div>
+        </div>
+
+        <!-- Page 3 -->
+        <div class="page-item-card c-gold">
+          <div>
+            <div class="page-card-top">
+              <span class="page-card-badge">PAGE 3</span>
+              <span class="page-card-icon">🥗</span>
+            </div>
+            <h4>Reference Dopamine Menu</h4>
+            <p class="page-desc">A fully pre-filled inspiration sheet so you never have to stare at a blank page wondering what to write.</p>
+            <ul class="page-bullets">
+              <li>Appetizers (2–5m quick sparks)</li>
+              <li>Main Courses (15–30m deep soothing resets)</li>
+              <li>Sides (sensory pairings for boring tasks)</li>
+              <li>Desserts (stimulating fun with timers)</li>
+            </ul>
+          </div>
+          <div class="page-format-tag">
+            <span>✓ Tested by ADHD Adults</span>
+          </div>
+        </div>
+
+        <!-- Page 4 -->
+        <div class="page-item-card c-violet">
+          <div>
+            <div class="page-card-top">
+              <span class="page-card-badge">PAGE 4</span>
+              <span class="page-card-icon">✏️</span>
+            </div>
+            <h4>Fillable "My Menu" Blank</h4>
+            <p class="page-desc">Your personal safe haven. Lined with gentle sand dots so you can write your own comfort favorites.</p>
+            <ul class="page-bullets">
+              <li>5 dedicated writing lines per course</li>
+              <li>"🚫 Drains Me, Not Right Now" boundary list</li>
+              <li>"⭐ Default Gentle Starter" box</li>
+            </ul>
+          </div>
+          <div class="page-format-tag">
+            <span>✓ Print Unlimited Times</span>
+          </div>
+        </div>
+
+        <!-- Page 5 -->
+        <div class="page-item-card c-gold">
+          <div>
+            <div class="page-card-top">
+              <span class="page-card-badge">PAGE 5</span>
+              <span class="page-card-icon">⏱️</span>
+            </div>
+            <h4>Gentle Starter Matrix</h4>
+            <p class="page-desc">Filter your warmup by available time and energy. Perfect for 5-minute pre-meeting gaps.</p>
+            <ul class="page-bullets">
+              <li>3 time columns: 5 min · 15 min · 30 min</li>
+              <li>Movement warmups (stretch, balcony, dance)</li>
+              <li>Creative sparks (doodle, notes, knitting)</li>
+            </ul>
+          </div>
+          <div class="page-format-tag">
+            <span>✓ Quick Energy Filter</span>
+          </div>
+        </div>
+
+        <!-- Page 6 -->
+        <div class="page-item-card c-rose">
+          <div>
+            <div class="page-card-top">
+              <span class="page-card-badge">PAGE 6</span>
+              <span class="page-card-icon">⚡</span>
+            </div>
+            <h4>12 Emergency Starters</h4>
+            <p class="page-desc">Tactile, circleable blocks designed for severe executive freeze when reading lists is impossible.</p>
+            <ul class="page-bullets">
+              <li>12 concrete physical triggers to circle</li>
+              <li>Micro-actions: "Wash face", "Put on shoes"</li>
+              <li>10-second decision cutoff — pick & go</li>
+            </ul>
+          </div>
+          <div class="page-format-tag">
+            <span>✓ Instant Freeze-Breaker</span>
+          </div>
+        </div>
+
+        <!-- Page 7 -->
+        <div class="page-item-card c-mint">
+          <div>
+            <div class="page-card-top">
+              <span class="page-card-badge">PAGE 7</span>
+              <span class="page-card-icon">🍵</span>
+            </div>
+            <h4>Self-Care & Comfort Menu</h4>
+            <p class="page-desc">Restorative recipes for body and senses when you need gentle convalescence and slow pacing.</p>
+            <ul class="page-bullets">
+              <li>Nourish & Warmth (comfort drinks & bowls)</li>
+              <li>Soft Rest & Space (weighted cocoon, naps)</li>
+              <li>Sensory Sanctuary & Soul Comfort</li>
+            </ul>
+          </div>
+          <div class="page-format-tag">
+            <span>✓ Low-Spoon Recovery</span>
+          </div>
+        </div>
+
+        <!-- Page 8 -->
+        <div class="page-item-card c-violet">
+          <div>
+            <div class="page-card-top">
+              <span class="page-card-badge">PAGE 8</span>
+              <span class="page-card-icon">🧸</span>
+            </div>
+            <h4>Stimming & Somatic Menu</h4>
+            <p class="page-desc">Repetitive movement, sensory input, and deep pressure as natural nervous system regulation.</p>
+            <ul class="page-bullets">
+              <li>Down-Regulating (butterfly hug, vagus humming)</li>
+              <li>Up-Regulating (heel drops, sour candy stims)</li>
+              <li>Proprioceptive heavy muscle work</li>
+            </ul>
+          </div>
+          <div class="page-format-tag">
+            <span>✓ Somatic Nervous Care</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHT BANNER: SOMATIC & SENSORY MEDICINE -->
+  <section class="highlight-banner-sec">
+    <div class="wrap">
+      <div class="highlight-banner">
+        <div class="highlight-content">
+          <span class="sec-tag">Neurodivergent Friendly</span>
+          <h2>Crafted specifically for ADHD, Autism,<br>&amp; Low Spoons</h2>
+          <p>
+            Unlike traditional planners that demand rigid adherence and streak counters, this toolkit was built around nervous system safety. Stimming, sensory comfort, and proprioceptive feedback are treated as legitimate first-class tools.
+          </p>
+          <div class="highlight-tags">
+            <span class="highlight-tag">🌱 Zero Streaks</span>
+            <span class="highlight-tag">🧸 Sensory Regulation</span>
+            <span class="highlight-tag">⚡ Immediate Relief</span>
+            <span class="highlight-tag">🖨️ Print Unlimited Times</span>
+          </div>
+        </div>
+
+        <img class="highlight-sticker" src="assets/sticker_walking_dopamine.png" alt="Lunelle mascot walking with headphones">
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="reviews-sec">
+    <div class="wrap">
+      <div class="sec-head center">
+        <span class="sec-tag">Gentle Words</span>
+        <h2>What neurodivergent planners are saying</h2>
+        <p>Real experiences from people who replaced executive freeze with gentle café ordering.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p>“I used to sit on the couch paralyzed for three hours feeling guilty because I couldn't write my report. Having the Emergency Starters page pinned on my wall literally broke my freeze in 2 minutes.”</p>
+          </div>
+          <div class="review-author">
+            <div class="review-avatar">M</div>
+            <div class="review-info">
+              <div class="name">Maya K.</div>
+              <div class="role">Late-diagnosed ADHDer · Designer</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p>“The ‘Drains Me’ section was a complete revelation. I finally admitted to myself that scrolling Instagram reels is NOT rest. My fillable sheet lives on my fridge now.”</p>
+          </div>
+          <div class="review-author">
+            <div class="review-avatar">S</div>
+            <div class="review-info">
+              <div class="name">Sam T.</div>
+              <div class="role">AuDHD Graduate Student</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p>“The aesthetic is so soft and gentle. It doesn’t scream at me with neon colors or aggressive bullet points. It feels like a hug from a friend who truly understands sensory overload.”</p>
+          </div>
+          <div class="review-author">
+            <div class="review-avatar">E</div>
+            <div class="review-info">
+              <div class="name">Elena R.</div>
+              <div class="role">Software Engineer & Chronic Illness Fighter</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFER & PRICING SECTION -->
+  <section class="offer-sec" id="buy">
+    <div class="wrap">
+      <div class="offer-details">
+        <span class="sec-tag">Instant Download</span>
+        <h2>Get your Dopamine Menu Toolkit today</h2>
+        <p class="lede">Pay once, own forever. Print as many copies as you need for your home, office, and planner binder.</p>
+
+        <ul class="offer-features">
+          <li><span class="check-icon">✓</span> <span><strong>Complete 8-Page Dopamine Toolkit</strong> (High-resolution vector PDF)</span></li>
+          <li><span class="check-icon">✓</span> <span><strong>Dual Format Included:</strong> Standard A4 and US Letter sizes</span></li>
+          <li><span class="check-icon">✓</span> <span><strong>Both Pre-Filled & Blank Templates:</strong> Reference guide + your custom fillable sheets</span></li>
+          <li><span class="check-icon">✓</span> <span><strong>12 Emergency Starters Sheet:</strong> Circle-mode protocol for acute task freeze</span></li>
+          <li><span class="check-icon">✓</span> <span><strong>Stimming & Somatic Regulation Menu:</strong> Sensory resets & heavy muscle work</span></li>
+          <li><span class="check-icon">✓</span> <span><strong>Digital Tablet Friendly:</strong> Use seamlessly in GoodNotes, Notability, or Kilonotes</span></li>
+          <li><span class="check-icon">✓</span> <span><strong>Instant Delivery:</strong> Download link sent immediately to your email</span></li>
+        </ul>
+
+        <div class="combo-banner">
+          <div>
+            <div class="combo-title">🌟 Want the Complete Neurodivergent Kit?</div>
+            <div class="combo-desc">Get the Dopamine Menu + Slow Days Planner Mini + Printable Sticker Sheet for just $9</div>
+          </div>
+          <a class="combo-btn" href="#buy">Bundle · $9</a>
+        </div>
+      </div>
+
+      <!-- Buy Card -->
+      <div class="buy-card">
+        <span class="buy-card-tag">✨ SPECIAL LAUNCH OFFER · 60% OFF</span>
+        <div class="price-row">
+          <span class="price-current">$5</span>
+          <span class="price-regular">$12</span>
+        </div>
+        <p class="price-note">One-time payment. Instant digital access. No subscriptions.</p>
+
+        <a class="btn" id="gumroad-buy-btn" href="assets/Lunelle_Dopamine_Menu_EN_A4.pdf" download="Lunelle_Dopamine_Menu_EN_A4.pdf">
+          <span>Download Toolkit Now · $5</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        </a>
+
+        <ul class="guarantee-list">
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2b7d75" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Secure 256-bit encrypted checkout</span>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2b7d75" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            <span>Instant PDF download link via email</span>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2b7d75" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            <span>100% Gentle Satisfaction Guarantee</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="faq-sec" id="faq">
+    <div class="wrap">
+      <div class="sec-head center">
+        <span class="sec-tag">Questions & Answers</span>
+        <h2>Frequently Asked Questions</h2>
+        <p>Everything you need to know about the toolkit, printing, and digital usage.</p>
+      </div>
+
+      <details open>
+        <summary>What exactly will I receive after purchasing?</summary>
+        <p>You’ll receive an immediate download link for the complete 8-page printable PDF kit in high-resolution vector quality. The files come in both international A4 and standard US Letter formats, ready to print or import into your digital notes app.</p>
+      </details>
+
+      <details>
+        <summary>Can I use this digitally on an iPad or tablet?</summary>
+        <p>Yes, absolutely! The PDF works seamlessly in GoodNotes, Notability, Samsung Notes, Apple Books, Kilonotes, or any app that supports PDF annotation. You can write directly on the blank templates using Apple Pencil or your stylus.</p>
+      </details>
+
+      <details>
+        <summary>What if I don't know what to put on my menu?</summary>
+        <p>That's why Page 3 (The Reference Dopamine Menu) is already completely filled out with realistic, gentle, neurodivergent-tested ideas! You can simply print the reference page and use it immediately, or copy your favorites onto your personal blank sheet.</p>
+      </details>
+
+      <details>
+        <summary>Can I print this on a standard black-and-white home printer?</summary>
+        <p>Yes. While the pages feature soothing soft pastels, they have been calibrated with high text contrast and clean outlines so they remain 100% legible and beautiful even when printed in grayscale or draft mode.</p>
+      </details>
+
+      <details>
+        <summary>Can I print multiple copies as my needs change?</summary>
+        <p>Yes! Your purchase grants you lifetime personal use. You can print fresh copies every season, keep one at your work desk and one on your fridge, or print individual sheets for your friends and family.</p>
+      </details>
+
+      <details>
+        <summary>What is your refund policy?</summary>
+        <p>We want this tool to bring you genuine relief, not stress. If the Dopamine Menu doesn't help you find gentler momentum, just reply to your receipt email within 30 days and we’ll issue a warm, no-questions-asked refund.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- FINAL CTA SECTION -->
+  <section class="final-sec">
+    <div class="wrap">
+      <div>
+        <h2>Ready to make starting feel soft again?</h2>
+        <p>Step away from the doomscroll spiral. Download your Dopamine Menu toolkit, print your favorite page, and take one tiny, guilt-free step forward.</p>
+        <a class="btn on-dark" href="#buy">Get the Dopamine Toolkit · $5</a>
+      </div>
+
+      <img class="final-mascot" src="assets/sticker_selfcare_05_herbal_tea.png" alt="Lunelle mascot enjoying warm herbal tea">
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div>
+      <strong>Lunelle</strong> · Gentle tools for neurodivergent minds · <a href="https://instagram.com/lunelle.near" target="_blank" rel="noopener">@lunelle.near</a>
+    </div>
+    <div>
+      <span>© 2026 Lunelle. All rights reserved. Made with gentle care.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- MOBILE STICKY BUY BAR -->
+<div class="mobile-sticky-bar">
+  <div>
+    <div class="ms-price">$5 <span style="font-size:.85rem;color:var(--ink-sub);text-decoration:line-through;">$12</span></div>
+    <div class="ms-sub">Instant 8-Page PDF</div>
+  </div>
+  <a class="btn small" href="#buy">Get Toolkit</a>
+</div>
+
+<!-- INTERACTIVE TAB SCRIPT -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const tabs = document.querySelectorAll('.tab-btn');
+  const panes = document.querySelectorAll('.tab-pane');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const targetId = tab.getAttribute('data-tab');
+
+      tabs.forEach(t => t.classList.remove('active'));
+      panes.forEach(p => p.classList.remove('active'));
+
+      tab.classList.add('active');
+      const targetPane = document.getElementById(targetId);
+      if (targetPane) targetPane.classList.add('active');
+    });
+  });
+});
+</script>
+
+</body>
+</html>
